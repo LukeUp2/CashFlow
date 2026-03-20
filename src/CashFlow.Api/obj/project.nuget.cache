@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wt1dhQoOLgE=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.2\\microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
+    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.14\\microsoft.netcore.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.14\\microsoft.windowsdesktop.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.14\\microsoft.aspnetcore.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.14\\microsoft.netcore.app.host.win-x64.9.0.14.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project CashFlow.Communication is not compatible with net9.0 (.NETCoreApp,Version=v9.0). Project CashFlow.Communication supports: net10.0 (.NETCoreApp,Version=v10.0)",
+      "projectPath": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj",
+      "filePath": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj",
+      "libraryId": "CashFlow.Communication",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
