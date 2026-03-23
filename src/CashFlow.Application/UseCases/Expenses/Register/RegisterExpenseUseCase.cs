@@ -21,27 +21,12 @@ namespace CashFlow.Application.UseCases.Expenses.Register
 
         private static void Validate(RequestRegisterExpenseJson request)
         {
-            var titleIsEmpty = string.IsNullOrWhiteSpace(request.Title);
-            if (titleIsEmpty)
-            {
-                throw new ArgumentException("O título da despesa é obrigatório.");
-            }
+            var result = new RegisterExpenseUseCaseValidator().Validate(request);
 
-            if (request.Amount <= 0)
+            if (result.IsValid is false)
             {
-                throw new ArgumentException("O valor da despesa deve ser maior que zero.");
-            }
-
-            var result = DateTime.Compare(request.Date, DateTime.UtcNow);
-            if (result > 0)
-            {
-                throw new ArgumentException("A data da despesa não pode ser no futuro.");
-            }
-
-            var paymentTypeIsValid = Enum.IsDefined(typeof(Communication.Enuns.PaymentType), request.PaymentType);
-            if (!paymentTypeIsValid)
-            {
-                throw new ArgumentException("O tipo de pagamento é inválido.");
+                var errors = result.Errors.Select(e => e.ErrorMessage).ToList();
+                throw new ArgumentException(string.Join("; ", errors));
             }
         }
     }
