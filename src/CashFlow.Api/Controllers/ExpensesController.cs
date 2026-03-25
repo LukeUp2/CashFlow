@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using CashFlow.Application.UseCases.Expenses.Register;
 using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
+using CashFlow.Exception.ExceptionBase;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CashFlow.Api.Controllers
@@ -22,14 +23,15 @@ namespace CashFlow.Api.Controllers
                 var response = useCase.Execute(request);
                 return Created(string.Empty, response);
             }
-            catch (ArgumentException ex)
+            catch (ErrorOnValidationException ex)
             {
                 var errorResponse = new ResponseErrorJson(ex.Message);
                 return BadRequest(errorResponse);
             }
             catch
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro inesperado.");
+                var errorResponse = new ResponseErrorJson("Ocorreu um erro inesperado.");
+                return StatusCode(StatusCodes.Status500InternalServerError, errorResponse);
             }
         }
     }

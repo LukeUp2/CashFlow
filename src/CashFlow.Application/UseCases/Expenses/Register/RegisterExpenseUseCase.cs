@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
+using CashFlow.Exception.ExceptionBase;
 
 namespace CashFlow.Application.UseCases.Expenses.Register
 {
@@ -26,7 +27,7 @@ namespace CashFlow.Application.UseCases.Expenses.Register
             if (result.IsValid is false)
             {
                 var errors = result.Errors.Select(e => e.ErrorMessage).ToList();
-                throw new ArgumentException(string.Join("; ", errors));
+                throw new ErrorOnValidationException(errors);
             }
         }
     }
