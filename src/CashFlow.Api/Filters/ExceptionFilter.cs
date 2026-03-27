@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using CashFlow.Communication.Responses;
+using CashFlow.Exception;
 using CashFlow.Exception.ExceptionBase;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
@@ -37,7 +38,7 @@ namespace CashFlow.Api.Filters
         private static void HandleUnknownException(ExceptionContext context)
         {
             context.HttpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
-            context.Result = new ObjectResult(new ResponseErrorJson("Ocorreu um erro inesperado."));
+            context.Result = new ObjectResult(new ResponseErrorJson(ResourceErrorMessage.UNKNOWN_ERROR));
         }
     }
 }

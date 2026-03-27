@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CashFlow.Communication.Requests;
+using CashFlow.Exception;
 using FluentValidation;
 
 namespace CashFlow.Application.UseCases.Expenses.Register
@@ -12,16 +13,16 @@ namespace CashFlow.Application.UseCases.Expenses.Register
         public RegisterExpenseUseCaseValidator()
         {
             RuleFor(expense => expense.Title)
-                .NotEmpty().WithMessage("The title is required.");
+                .NotEmpty().WithMessage(ResourceErrorMessage.TITLE_REQUIRED);
 
             RuleFor(expense => expense.Amount)
-                .GreaterThan(0).WithMessage("The amount must be greater than zero.");
+                .GreaterThan(0).WithMessage(ResourceErrorMessage.AMOUNT_MUST_BE_GREATHER_THAN_ZERO);
 
             RuleFor(expense => expense.Date)
-                .LessThanOrEqualTo(DateTime.UtcNow).WithMessage("The date cannot be in the future.");
+                .LessThanOrEqualTo(DateTime.UtcNow).WithMessage(ResourceErrorMessage.EXPENSES_CANNOT_BE_IN_FUTURE);
 
             RuleFor(expense => expense.PaymentType)
-                .IsInEnum().WithMessage("The payment type is invalid.");
+                .IsInEnum().WithMessage(ResourceErrorMessage.INVALID_PAYMENT);
         }
     }
 }

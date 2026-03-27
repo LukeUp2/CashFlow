@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C055B731-9957-4C35-8A82-AD5C286A92BB}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|c:\\users\\joaos\\dev\\rocketseat\\cashflow\\src\\cashflow.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C055B731-9957-4C35-8A82-AD5C286A92BB}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC177587-F9B1-4790-BA00-DC85378938EC}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|c:\\users\\joaos\\dev\\rocketseat\\cashflow\\src\\cashflow.exception\\resourceerrormessage.pt-br.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{EC177587-F9B1-4790-BA00-DC85378938EC}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|solutionrelative:src\\cashflow.exception\\resourceerrormessage.pt-br.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F0CAA43-8802-4DD3-BFDB-10A0636C8B55}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|c:\\users\\joaos\\dev\\rocketseat\\cashflow\\src\\cashflow.exception\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F0CAA43-8802-4DD3-BFDB-10A0636C8B55}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|solutionrelative:src\\cashflow.exception\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC177587-F9B1-4790-BA00-DC85378938EC}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|c:\\users\\joaos\\dev\\rocketseat\\cashflow\\src\\cashflow.exception\\resourceerrormessage.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{EC177587-F9B1-4790-BA00-DC85378938EC}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|solutionrelative:src\\cashflow.exception\\resourceerrormessage.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE5B96C-1D9D-487A-9152-0DC4FD4DC832}|CashFlow.Communication\\CashFlow.Communication.csproj|c:\\users\\joaos\\dev\\rocketseat\\cashflow\\cashflow.communication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE5B96C-1D9D-487A-9152-0DC4FD4DC832}|CashFlow.Communication\\CashFlow.Communication.csproj|solutionrelative:cashflow.communication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8AE31C6-9961-42D7-8C9D-3A7032315E25}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\users\\joaos\\dev\\rocketseat\\cashflow\\src\\cashflow.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8AE31C6-9961-42D7-8C9D-3A7032315E25}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6350EAE9-CCE9-4FB4-B50F-5514DE464FEB}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|c:\\users\\joaos\\dev\\rocketseat\\cashflow\\src\\cashflow.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6350EAE9-CCE9-4FB4-B50F-5514DE464FEB}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflow.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C238ACE-2A43-42E5-A71B-5FCA2336AC7A}|src\\CashFlow.Api\\CashFlow.Api.csproj|c:\\users\\joaos\\dev\\rocketseat\\cashflow\\src\\cashflow.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C238ACE-2A43-42E5-A71B-5FCA2336AC7A}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,66 +55,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Infrastructure\\Class1.cs",
-              "RelativeToolTip": "src\\CashFlow.Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T02:53:26.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Exception\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Exception\\Class1.cs",
-              "ToolTip": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Exception\\Class1.cs",
-              "RelativeToolTip": "src\\CashFlow.Exception\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T02:53:00.961Z",
+              "Title": "ResourceErrorMessage.pt-BR.resx",
+              "DocumentMoniker": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Exception\\ResourceErrorMessage.pt-BR.resx",
+              "RelativeDocumentMoniker": "src\\CashFlow.Exception\\ResourceErrorMessage.pt-BR.resx",
+              "ToolTip": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Exception\\ResourceErrorMessage.pt-BR.resx",
+              "RelativeToolTip": "src\\CashFlow.Exception\\ResourceErrorMessage.pt-BR.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-03-26T17:16:50.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\CashFlow.Communication\\Class1.cs",
-              "RelativeDocumentMoniker": "CashFlow.Communication\\Class1.cs",
-              "ToolTip": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\CashFlow.Communication\\Class1.cs",
-              "RelativeToolTip": "CashFlow.Communication\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ExceptionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Api\\Filters\\ExceptionFilter.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Api\\Filters\\ExceptionFilter.cs",
+              "ToolTip": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Api\\Filters\\ExceptionFilter.cs",
+              "RelativeToolTip": "src\\CashFlow.Api\\Filters\\ExceptionFilter.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T02:52:40.14Z",
+              "WhenOpened": "2026-03-26T17:02:30.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Application\\Class1.cs",
-              "ToolTip": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Application\\Class1.cs",
-              "RelativeToolTip": "src\\CashFlow.Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T02:52:27.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Domain\\Class1.cs",
-              "RelativeToolTip": "src\\CashFlow.Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T02:52:11.34Z",
+              "DocumentIndex": 1,
+              "Title": "ResourceErrorMessage.resx",
+              "DocumentMoniker": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Exception\\ResourceErrorMessage.resx",
+              "RelativeDocumentMoniker": "src\\CashFlow.Exception\\ResourceErrorMessage.resx",
+              "ToolTip": "C:\\Users\\joaos\\Dev\\Rocketseat\\CashFlow\\src\\CashFlow.Exception\\ResourceErrorMessage.resx",
+              "RelativeToolTip": "src\\CashFlow.Exception\\ResourceErrorMessage.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-03-26T17:01:10.816Z",
               "EditorCaption": ""
             }
           ]
